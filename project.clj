@@ -35,7 +35,14 @@
                     :asset-path           "js/compiled/out"
                     :source-map-timestamp true
                     :preloads             [devtools.preload]
-                    :external-config      {:devtools/config {:features-to-install :all}}}}
+                    :external-config      {:devtools/config {:features-to-install :all}}
+                    :install-deps true
+                    :npm-deps 
+                    {:url-search-params "^0.10.0"
+                     :rxjs "^5.5.6"
+                     "@atlaskit/editor-core" "^60.15.7"}}}
+                      
+                    
                     
 
     {:id           "min"

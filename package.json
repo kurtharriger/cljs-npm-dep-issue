@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@atlaskit/editor-core": "^60.15.7",
+    "@cljs-oss/module-deps": "^1.1.1",
+    "rxjs": "^5.5.6",
+    "url-search-params": "^0.10.0"
+  }
+}
